@@ -1,0 +1,29 @@
+[
+    {
+        "id": "95c8533c-576b-4a75-b7f3-f7d42f4f4842",
+       "title": "Black t-shirt",
+       "price": "7.95",
+       "image": {
+           "url": "/static/remera.png",
+           "alt": "Photo of a nice shirt"
+       }
+    },
+    {
+        "id": "b48c1c52-e5cb-4709-9ffb-685811afec96",
+        "title": "Black hoodie",
+        "price": "13",
+        "image": {
+            "url": "/static/buzo.png",
+            "alt": "Photo of a awesome Black hoodie"
+        }
+    },
+    {
+        "id": "95857fa5-4167-4b34-98f2-854bb709b39d",
+        "title": "Black cap",
+        "price": "23",
+        "image": {
+            "url": "/static/snapback.png",
+            "alt": "Photo of a black cap"
+        }
+    }
+]
