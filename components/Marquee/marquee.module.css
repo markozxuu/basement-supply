@@ -1,0 +1,8 @@
+.root {
+  @apply relative overflow-x-hidden whitespace-nowrap border border-r-0 border-l-0 border-b border-t mt-16;
+}
+
+.text {
+  letter-spacing: 1px;
+  @apply font-basement font-bold lg:text-2xl text-xl text-center;
+}
