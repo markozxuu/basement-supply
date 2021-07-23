@@ -1,0 +1,14 @@
+.wear {
+  font-size: 18vw;
+  line-height: 80.5%;
+  letter-spacing: 2px;
+  @apply font-basement uppercase font-bold;
+}
+  
+.everyday {  
+  @apply lg:text-[17vw] text-[14.5vw];  
+  line-height: 80.5%;
+  letter-spacing: 13px;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff,-1px 1px 0 #fff, 1px 1px 0 #fff;
+  @apply font-basement uppercase text-black font-bold;
+}
