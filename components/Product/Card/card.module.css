@@ -1,0 +1,15 @@
+.root {
+   @apply border border-white border-t-0 border-l-0 border-r-0 cursor-pointer relative;
+   background: linear-gradient(180deg, #1D1D1D 0%, rgba(21, 21, 21, 0) 100%);
+}
+
+.root:hover {
+   background-color: transparent;
+   background-image: url('/static/add-to-cart.png');
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.title {
+   @apply font-bold font-basement text-lg lg:text-2xl;
+}
