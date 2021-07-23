@@ -1,0 +1,19 @@
+.basement {
+  font-size: 18vw;;
+  line-height: 80.5%;
+  letter-spacing: 2px;
+  @apply font-basement uppercase font-bold;
+}
+
+.supply {    
+  font-size: 17vw;
+  line-height: 80.5%;
+  letter-spacing: 13px;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff,-1px 1px 0 #fff, 1px 1px 0 #fff;
+  @apply font-basement uppercase text-black font-bold;
+}
+
+.button {
+  border-radius: 50%;
+  @apply px-5 py-0 lg:px-10 lg:py-4 border-white border font-bold font-basement uppercase;
+}
