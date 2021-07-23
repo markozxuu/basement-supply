@@ -1,0 +1,8 @@
+/* Basement Studio */
+@font-face {
+  font-family: 'Basement Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-display: optional;
+  src: url('/fonts/basement-grotesqueRegular.woff2') format('woff2');
+}
