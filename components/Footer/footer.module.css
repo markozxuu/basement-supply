@@ -1,0 +1,11 @@
+.root {
+  @apply flex flex-col justify-center items-start mx-auto w-full mb-8 mt-20;
+}
+
+.container {
+  @apply w-full grid grid-cols-1 gap-4 pb-16 sm:grid-cols-4 px-10;
+}
+
+.divider {
+  @apply w-full border border-t-0  border-white mb-8;
+}
