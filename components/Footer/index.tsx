@@ -7,7 +7,7 @@ import s from './footer.module.css';
 
 const Footer = () => (
   <footer className={s.root}>
-    <hr className={s.divider} />
+    <div className={s.divider}></div>
     <div className={s.container}>
       <div className="flex flex-col space-y-4 lg:space-y-8">
         <Link href="/">
@@ -45,7 +45,13 @@ const Footer = () => (
         >
           twitter
         </a>
-        <a>facebook</a>
+        <a
+          href="https://twitter.com/basementstudio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          facebook
+        </a>
         <a
           href="https://www.linkedin.com/company/basementstudio/"
           target="_blank"
