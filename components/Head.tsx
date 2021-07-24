@@ -39,6 +39,12 @@ const Head = () => (
     <meta name="twitter:site" content="@basementstudio" />
     <meta name="apple-mobile-web-app-title" content="Basement" />
     <meta name="author" content="Basement" />
+
+    {/* Favicons */}
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="/favicons/basement.ico" />
+    <link rel="apple-touch-icon" href="/favicons/basement-180x180.png" />
+    <link rel="manifest" href="/favicons/manifest.json" />
   </NextHead>
 );
 
