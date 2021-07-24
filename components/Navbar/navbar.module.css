@@ -1,0 +1,11 @@
+.root {
+  @apply mx-auto flex flex-wrap p-5 flex-row justify-between md:flex-row items-center;
+}
+
+.containerIcons {
+  @apply hidden xl:flex md:ml-auto md:mr-auto flex-wrap items-center text-base justify-center space-x-1;
+}
+
+.buttonCart {
+  @apply py-1 px-6 flex items-center justify-center border-white border font-bold font-basement uppercase rounded-full;
+}
