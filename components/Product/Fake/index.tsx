@@ -27,6 +27,7 @@ const FakeProduct = () => {
             src={shirt}
             width={200}
             height={200}
+            placeholder="blur"
           />
           <div className="w-1/2 px-2">
             <div className="flex flex-col">
