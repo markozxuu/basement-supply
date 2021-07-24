@@ -30,7 +30,7 @@ const Head = () => (
     <meta property="og:image" content="/static/og.jpg" />
 
     {/* URL */}
-    <meta property="og:url" content="https://basement-supply.vercel.app" />
+    <meta property="og:url" content="https://basement-supply.vercel.app/" />
 
     {/* General */}
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
