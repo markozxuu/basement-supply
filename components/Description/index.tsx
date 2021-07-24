@@ -7,12 +7,20 @@ import { Spring, SrpingMobile } from '@components/icons/spring';
 const Description = () => (
   <div className="mt-20">
     <div className="flex justify-end items-center mb-5 lg:mb-10">
-      <span className="mr-10 hidden xl:inline">
+      <button
+        className="mr-10 hidden xl:inline bg-transparent focus:outline-none focus:ring-0"
+        title="Spring"
+        aria-label="Spring"
+      >
         <Spring />
-      </span>
-      <span className="mr-5 inline xl:hidden">
+      </button>
+      <button
+        className="mr-5 inline xl:hidden bg-transparent focus:outline-none focus:ring-0"
+        title="Spring"
+        aria-label="Spring"
+      >
         <SrpingMobile />
-      </span>
+      </button>
       <h2 className={cx(s.wear)}>wear</h2>
     </div>
     <div className="flex items-center">
