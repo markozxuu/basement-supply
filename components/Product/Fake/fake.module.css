@@ -1,0 +1,14 @@
+.img {
+  background: linear-gradient(180deg, #1D1D1D 0%, rgba(21, 21, 21, 0) 100%);
+}
+
+.quantity {
+  border: 1px solid #FFFFFF;
+  border-radius: 17.5px;
+  @apply ml-5 lg:px-5 px-2 border-white border font-bold font-basement uppercase;
+}
+
+.btSize {
+  border: 1px solid #FFFFFF;
+  @apply ml-2 text-xl font-basement font-bold uppercase rounded-full px-2;  
+}
