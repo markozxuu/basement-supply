@@ -1,0 +1,22 @@
+.yourParagraph {
+  line-height: 80.5%;
+  letter-spacing: 2px;
+  @apply font-basement uppercase font-bold lg:text-[6vw] text-[27vw];
+}
+
+.cartParagraph {
+  line-height: 80.5%;
+  letter-spacing: 13px;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff,-1px 1px 0 #fff, 1px 1px 0 #fff;
+  @apply font-basement uppercase text-black font-bold lg:text-[6.5vw] text-[27vw];
+}
+
+.chekoutParagraph {
+  @apply p-2 text-black font-bold font-basement text-4xl uppercase ml-5 border border-white border-l border-r-0 border-t-0 border-b-0;
+  line-height: 80.5%;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff,-1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.divider {
+  @apply w-full border border-t-0  border-white mt-5;
+}
